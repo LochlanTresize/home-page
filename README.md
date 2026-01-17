@@ -1,3 +1,3 @@
 # My Personal Website/Portfolio
 
-Access via https://lochlantresize.github.io/Personal-Portfolio/
+Access via https://lochlantresize.github.io/home-page/

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,101 +8,81 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-
-<!--Need to add second button for gitrepo on projects-->
-
-
-<span class="blur"></span>
-<span class="blur"></span>
-
     <div class="nav">
         <h1 class="navlink">
-
-        <a href="https://github.com/LochlanTresize">Welcome!</a>  
+            <a href="https://github.com/LochlanTresize">Welcome!</a>
         </h1>
     </div>
 
     <header class="container">
         <div class="content">
-            <h1>I'm Lochlan</h1>
-            <p>I'm a third year pure maths major at the Unimelb.
-            <!-- <br><br> -->
-            <!-- <b>Currently reading:</b> From Calculus to Cohomology - Madsen & Tornehave -->
-            
-            <br><br><b>E:</b> l dot eastwood(the symbol)unimelb dot edu dot au
-            <br><br>
-            Feel free to email me for my transcript/resume. You should do the same if you want to have a look at the code for the projects below.
-            github have made some changes to hosting sites, so for now a lot of this site is under construction, and it's bugs and incomplete features are somehwere on my TODO list.
+            <h2>I'm Lochlan</h2>
+            <p>I'm in my final semester of undergrad in pure maths at Unimelb.<br><br>
+
+                <b>Research:</b> microlocal scattering theory. Currently looking at scattering on lattices.<br><br>
+                <!-- <br><br> -->
+                <!-- <b>Currently reading:</b> From Calculus to Cohomology - Madsen & Tornehave -->
+
+                <b>github:</b> <a href="https://github.com/LochlanTresize/">github.com/LochlanTresize/</a>
+
+                <br><br><b>E:</b> l dot eastwood(the symbol)unimelb dot edu dot au
+                <br><br>
+                Feel free to email me for my transcript/resume.
             </p>
         </div>
     </header>
 
-    <div></div>
+    <hr>
+    <section class="container">
+        <h2 class="header">
+            Teaching
+        </h2>
+        <p>
+            2025 S1 - Calculus 1 <br>
+            2025 S2 - Calculus 1
+        </p>
+    </section>
 
-
-        <hr>
-        <section class="container">
-            <h2 class="header">
-                Teaching
-            </h2>
-            <p>
-                2025 S1 - Calculus 1 Tutor
-            </p>
-        </section>
-
-        <hr>
+    <hr>
     <section class="container">
         <h2 class="header">Projects</h2>
-            <p class="viewall">View my github <a href="https://github.com/LochlanTresize">here</a>. <br></br>These are private while I make updates to this site; email me for access. 
-            <br><br>
-                I leave this here in case you want to see some of the stuff I do in my spare time. Most of these are getting old, as I spend most time doing linux stuff which I haven't put up yet.
-            </p>
-        <div class="projects">
-            <div class="card">
-            <h4> ~ Linux setup</h4>
-            <p>Less of a conventional TODO-app project, most of my work in late 2024-early 2025 has been spent moving my life over to linux.</p>
+        <p class="viewall">View my github <a href="https://github.com/LochlanTresize">here</a>.
 
-                    <p>I currently run i3 on arch and have a pretty decent setup for nvim for latex and writing C code.</p>
+            <br><br><b>* Vacation Scholarship Unimelb:</b> scattering theory for time-dependent potentials.<br><br>
+            Poster:
+            <a href="https://github.com/LochlanTresize/UM-VS-2024-25">github.com/LochlanTresize/UM-VS-2024-25</a>.
+        <p>If you're taking the vacation scholarship, are compiling your poster locally (with latexmk) and are using the
+            unofficial Cambridge template or are
+            running into a
+            'fontspec use lualatex' error, have a
+            look at the repo above. I was in this situation when I took the program and have written some notes that
+            show how I got
+            everything
+            compiling ok.
+    </section>
 
-                    <p>For the latex side I make use of <a href="https://github.com/lervag/vimtex">Lervag's vimtex plugin</a> alongside zathura and latexindent. I've written a few scripts to do things like search references on my machine and I might put them up on github one day. I use ultisnips to speed up the latex writting. The C-stuff is pretty standard.</p>
+    <hr>
+    <section class="container">
+        <h2 class="header">Conferences</h2>
+        <p>* NZMS 2025 Colloquium <a
+                href="https://www.ivvy.com.au/event/COTEX6/home.html">www.ivvy.com.au/event/COTEX6/home.html</a>.
+    </section>
 
-                    <p>I spend most of my time writing smaller scripts and configuring smaller things - e.g. auto-configuring display settings on startup.</p>
-
-            </div>
-            <div class="card">
-            <h4> ~ Reccommendation System</h4>
-            <p>Worked with another student to build and optimise a user-based KNN reccommendation system on a very large dataset. Used k-fold validation for the analysis. We also bult an item-based model.</p>
-
-            <p>This project was apart of a data processing class I took in 2024.</p>
-            </div>
-
-            <div class="card">
-            <h4> ~ Language Identifier web app</h4>
-            <p>A web app to showcase a language classifier. Built with htmx and flask (a nice alternative to JS/react for such a simple site).</p>
-            <!-- <button type="submit" onclick="location.href='https://classifier-app-m9uo.onrender.com/'" class="btn11" download>View the web app</button> -->
-            <button type="submit" onclick="location.href='https://github.com/LochlanTresize'" class="btn12">View the git repo</button>
-            </div>
-
-            <div class="card">
-            <h4> ~ Language Identifier</h4>
-            <p>A machine learning model to identify the language of a given text.</p>
-            <button type="submit" onclick="location.href='https://github.com/LochlanTresize'" class="btn12">View the git repo</button>
-            </div>
-        </div>
+    <hr>
+    <section class="container">
+        <h2 class="header">Other</h2>
+        <p>* <b>Hansen grad speech 2025:</b> When I graduated from the Hansen Scholarship program in 2025, I gave a
+            speech
+            on behalf of my cohort about
+            the importance of teaching and advocacy. You can
+            read the speech in <a href="src/grad-speech-25.html">grad-speech-25.html</a>.
     </section>
 
 
-    <!--     <hr> -->
-    <!-- <footer class="container"> -->
-    <!--     <div class="column"> -->
-    <!--         <div class="contact"><i class="ri-mail-line"></i> -->
-    <!--                 <p>l dot eastwood(the symbol)unimelb dot edu dot au</p></div> -->
-    <!--             <br> -->
-    <!--     </div> -->
-    <!-- </footer> -->
-
-
+    <br><br>
     <script src="script.js"></script>
 </body>
+
 </html>
