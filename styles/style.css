@@ -1,1 +1,7 @@
- 
+img {
+    width: min(40%, 450px);
+} 
+.footerimage {
+    align: center;
+    width: min(75%, 650px);
+} 
